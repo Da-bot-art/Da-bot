@@ -1,15 +1,19 @@
-/*This is single-line comment*/
-@font-face {
-  font-family: myFirstFront;
-  src: url(sansation_light.woff);
+
+
+span.b {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;
 }
 
-div {
-  font-family: myFirstFont;
-}
-
-@font-face {
-  font-family: myFirstFont;
-  src: url(sansation_bold.woff);
-  font-weight: bold;
-}
+span.c {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;
+}padding: 5px;
