@@ -1,1 +1,24 @@
+/*style the video games cointeiner of the iframe*/
+.video games-cointeiner {
+display: flex;
+flex-wrap wrap;
+gap 20px;
+padding-top: 25px;
+}
 
+/*Style the video games item in the iframe*/
+.video games-item {
+flex: 1 1 300px;
+border: 1px solid #ccc;
+padding: 10px;
+box-sizing: border-box;
+overflow: hidden;
+}
+
+/*Style the text in the inframe*/
+.video games-item h2 {
+font-size: 16px;
+margin: 0 0 10px;
+}
+
+/*Style the width and height positioning of the video games in the inframe*/
