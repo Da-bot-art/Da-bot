@@ -1,0 +1,15 @@
+/*This is single-line comment*/
+@font-face {
+  font-family: myFirstFront;
+  src: url(sansation_light.woff);
+}
+
+div {
+  font-family: myFirstFont;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_bold.woff);
+  font-weight: bold;
+}
